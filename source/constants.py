@@ -1,8 +1,8 @@
-__author__ = 'marble_xu'
+__author__ = 'gisele_123'
 
 START_LEVEL_NUM = 1
 
-ORIGINAL_CAPTION = 'Plant VS Zombies Game'
+ORIGINAL_CAPTION = 'Botanic Battle Game'
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600

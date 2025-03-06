@@ -1,31 +1,43 @@
-# Python版植物大战僵尸
-  一个简单的植物大战僵尸游戏。
-  
-  `仅供个人学习和非商业用途。如果这个游戏侵犯了版权，请告诉我。`
-  
-* 已有的植物： 向日葵, 豌豆射手, 坚果墙, 寒冰豌豆射手, 樱桃炸弹, 三向豌豆射手, 食人花, 喷射蘑菇, 土豆地雷, 杂草地刺, 胆小菇, 南瓜, 愤怒辣椒, 阳光菇, 冰冻蘑菇, 诱惑蘑菇。
-* 已有的僵尸: 普通僵尸, 带队僵尸, 路锥僵尸, 水桶僵尸, 看报僵尸。
-* 使用 JSON 格式的文件存储进度数据 (例如僵尸出现的位置和时间, 背景信息)。
-* 支持选择植物卡片在每一关的开始。
-* 支持白昼模式,夜晚模式,传送带模式和坚果保龄球模式。
+# **Python Version: Botanic Battle**  
+A simple **Plants vs. Zombies** game.  
 
-# 系统要求
-* Python 3.7 
-* 注意: Python3.7是最佳运行环境，但是不是强制性要求。 对于Linux: 如果你的 Linux 有预装的 Python3+ 就可以运行了。 LINUX Mint 操作系统直接升级到 Python 3.7 有可能导致系统自带的 python 版本无法执行。
-* Python-Pygame 1.9
 
-# 怎样开始游戏
+
+## **Implemented Features**  
+### **Available Plants:**  
+Sunflower, Peashooter, Wall-nut, Snow Peashooter, Cherry Bomb, Threepeater, Chomper, Puff-shroom, Potato Mine, Spikeweed, Scaredy-shroom, Squash, Jalapeno, Sun-shroom, Ice-shroom, Hypno-shroom.  
+
+### **Available Zombies:**  
+Regular Zombie, Flag Zombie, Conehead Zombie, Buckethead Zombie, Newspaper Zombie.  
+
+### **Game Mechanics:**  
+- Uses **JSON** files to store progress data (e.g., zombie spawn positions, timing, and background info).  
+- Allows **plant card selection** at the beginning of each level.  
+- Supports **multiple game modes**:  
+  - **Day Mode**  
+  - **Night Mode**  
+  - **Moving Conveyor Belt Mode**  
+  - **Wall-nut Bowling Mode**  
+
+## **System Requirements**  
+- **Python 3.7** (Recommended but not required)  
+  - **For Linux Users**: If your system comes with **Python 3+ pre-installed**, the game should run fine. However, directly upgrading to **Python 3.7** on Linux Mint may cause issues with system dependencies.  
+- **Python-Pygame 1.9**  
+
+## **How to Start the Game**  
+```sh
 $ python main.py
+```  
 
-# 怎样玩
-* 使用鼠标收集阳光,收集植物卡片和植物的种子。
-* 你可以通过更改 source/constants.py 中的 START＿LEVEL＿NUM 的数值来更改起始关卡：
-  * 1 和 2：白昼模式
-  * 3: 夜晚模式
-  * 4: 传送带模式
-  * 5: 坚果保龄球模式
+## **How to Play**  
+- Use the **mouse** to **collect sunlight**, **select plant cards**, and **place plants**.  
+- You can set the **starting level** by modifying the `START_LEVEL_NUM` value in `source/constants.py`:  
+  - **Level 1 & 2:** Day Mode  
+  - **Level 3:** Night Mode  
+  - **Level 4:** Moving Conveyor Belt Mode  
+  - **Level 5:** Wall-nut Bowling Mode  
 
-# 截屏
-![截屏1](https://raw.githubusercontent.com/marblexu/PythonPlantsVsZombies/master/demo/demo1.jpg)
-![截屏2](https://raw.githubusercontent.com/marblexu/PythonPlantsVsZombies/master/demo/demo2.jpg)
-![截屏3](https://raw.githubusercontent.com/marblexu/PythonPlantsVsZombies/master/demo/demo3.jpg)
+## **Screenshots**  
+![Screenshot 1](https://raw.githubusercontent.com/marblexu/PythonPlantsVsZombies/master/demo/demo1.jpg)  
+![Screenshot 2](https://raw.githubusercontent.com/marblexu/PythonPlantsVsZombies/master/demo/demo2.jpg)  
+![Screenshot 3](https://raw.githubusercontent.com/marblexu/PythonPlantsVsZombies/master/demo/demo3.jpg)  

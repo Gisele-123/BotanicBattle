@@ -1,26 +1,30 @@
-# BotanicBattle
-  A simple BotanicBattle game. <br>
-  `It's only for personal learning and noncommercial use. If this game infringes the copyright, please let me know.`
-* implement plants: sunflower, peashooter, wallnut, snowpeashooter, cherrybomb, threepeashooter, chomper, puffshroom, potatomine, spikeweed, scaredyshroom, squash, scaredyshroom, jalapeno, sunShroom, iceShroom, hypnoShroom.
-* implement zombies: zombie, flagzombie, coneheadzombie, bucketheadzombie, newspaperzombie.
-* use json file to store level data (e.g.position and time of zombies, background info)
-* support to select plant cards at the beginning of the level
-* support day level, night level, moving card select level and wallnut bowling level
+### **Botanic Battle: Cosmic Bloom** 🌱🚀  
 
-# Requirement
-* Python 3.7 
-* Notice: python version 3.7 is advisable, but not required. For LINUX: if your Linux system has a preinstalled python 3+, it's ok to run this game. Updating to python 3.7 directly may break LINUX Mint.
-* Python-Pygame 1.9
+#### **Story**  
+In the distant future, humanity has ventured beyond Earth in search of new habitable worlds. After years of interstellar travel, a team of explorers discovers **Nova Terra**, a barren yet promising exoplanet. To make it livable, scientists develop an advanced **BioTerraforming System (BTS)**, capable of introducing plant life and sustaining biodiversity. However, their mission is threatened when a **mysterious cosmic radiation** awakens an ancient alien parasite—the **Necro Spores**—which reanimates organic matter into zombie-like creatures.  
 
-# How To Start Game
-$ python main.py
+To save Nova Terra, **you**—a lead Terraforming Biologist—must strategically deploy genetically enhanced plants to **defend the ecosystem** and ensure life can flourish. Each plant is engineered to withstand extreme conditions, from solar storms to frozen wastelands, while fighting off the relentless Necro Spores that threaten to consume all organic matter.  
 
-# How to Play
-* use mouse to collect sun, select the plant cards and seed the plant 
-* you can set the start level by changing START_LEVEL_NUM value in source/constants.py
-  * level 1 and 2：day level
-  * level 3: night level
-  * level 4: moving card select level
-  * level 5: wallnut bowling level
+#### **Gameplay Features**  
+1. **Terraforming Through Defense** 🌍  
+   - Players use specialized plants to create a self-sustaining ecosystem.  
+   - Each plant serves a dual purpose: providing biodiversity and acting as a defense mechanism.  
+   
+2. **Extreme Environments** ❄️🔥🌪️  
+   - **Day levels**: Battling radiation storms and extreme heat.  
+   - **Night levels**: Overcoming freezing temperatures and oxygen depletion.  
+   - **Moving card levels**: Selecting plants based on unpredictable planetary conditions.  
+   - **Wallnut Bowling levels**: Using gravity physics to clear obstacles and zombies.  
 
+3. **Alien Zombies & Their Evolution** 🧟‍♂️  
+   - **Flag Necro-Spore**: Leads waves of mutated zombies.  
+   - **Conehead Stalker**: Resistant to solar flares.  
+   - **Buckethead Husk**: Reinforced by alien minerals.  
+   - **Newspaper Abomination**: Absorbs energy from plant life.  
 
+4. **Adaptive Ecosystems & Biodiversity** 🌱  
+   - Players must balance plant selection for survival, considering oxygen levels, temperature control, and food supply.  
+   - Failure to maintain biodiversity results in ecosystem collapse.  
+
+#### **Mission**  
+Survive the Necro Spore onslaught, adapt your plant life to harsh alien conditions, and transform Nova Terra into a thriving, self-sustaining world. The fate of space colonization **rests in your hands!**  

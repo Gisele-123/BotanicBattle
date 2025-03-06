@@ -1,4 +1,4 @@
-__author__ = 'marble_xu'
+__author__ = 'gisele_123'
 
 import pygame as pg
 from .. import tool
